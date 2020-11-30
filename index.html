@@ -1,0 +1,136 @@
+<html>
+     <head>
+         <title>Autoevaluacion</title>
+         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+         <script language="JavaScript">
+
+var resp = new Array;
+var faite = new Array;
+var score = 0;
+ 
+resp[1] = "c";
+resp[2] = "b";
+resp[3] = "c";
+resp[4] = "b";
+resp[5] = "c";
+resp[6] = "c";
+resp[7] = "b";
+resp[8] = "c";
+resp[9] = "b";
+resp[10] = "a";
+ 
+function Engine(question, repose)
+{
+   if (repose != resp[question])
+	 {
+             if (!faite[question])
+			{    faite[question] = -1;}
+                }
+        else {
+                if (!faite[question]) {
+                        faite[question] = -1;
+                        score++;
+                        alert("¡Correcto! Tu puntuación es : " + score );
+                        }
+                }
+}
+         </script>
+     </head>
+ 
+     <body bgcolor="#FFFFFF" text="#000000">
+         <table width="785" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#336699" height="2">
+  <tr>
+    <td width="50" rowspan="2"><img src="../../imagen/desafio.gif" width="50" height="50"></td>
+    <td width="515" class="TopicTitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"><b>Test
+      grupal</b></font></td>
+  </tr>
+  <tr>
+    <td width="515" bgcolor="#336699"> </td>
+  </tr>
+  <tr>
+    <td height="521"> </td>
+    <td height="521">
+      <div align="center">
+<div align="left">
+   <FORM NAME="formulario" ACTION="">
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1.
+              Las teorías y explicaciones sobre el origen del ser humano…</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=a>
+              a. Siempre se han mantenido</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=b>
+              b. Apenas han cambiado</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=c>
+              c. La lógica conceptual.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              2. ¿La lógica de la computadora se basa en las reglas de?</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=a>
+              a. La lógica Booleana.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=b>
+              b. El álgebra Booleana.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=c>
+              c. Las tablas de verdad.</font></p>
+            <p> </p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">3.
+              ¿La salida y el estado de un circuito de lógica secuencial
+              depende del estado anterior y de?</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=a>
+              a. De los conjuntos actuales de combinaciones.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=b>
+              b. De los conjuntos actuales de secuencias.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=c>
+              c. De los conjuntos actuales de entradas.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">4.
+              ¿El funcionamiento de la computadora puede simularse por medio de?</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=a>
+              a. Un modelo estructurado.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=b>
+              b. Un modelo simple.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=c>
+              c. Un diagrama de procesos.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">5.
+              ¿Los pasos del Pequeño Hombre reflejan? </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=a>
+              a. Los de una unidad de CD-ROM.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=b>
+              b. Los de una unidad de disco.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=c>
+              c. Los de una unidad central de procesamiento (CPU).</font></p>
+            <p> </p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">6.
+              ¿Los pasos del Pequeño Hombre reflejan? </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=a>
+              a. Los de una unidad de CD-ROM.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=b>
+              b. Los de una unidad de disco.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=c>
+              c. Los de una unidad central de procesamiento (CPU).</font></p>
+            <p> </p>
+            </FORM>
+  </div>
+      </div>
+    </td>
+  </tr>
+</table>
+ 
+</body>
+</html>
